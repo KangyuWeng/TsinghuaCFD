@@ -16,3 +16,18 @@ $$
 ### Solution
 
 HW22March.py
+
+## Homework 24 April
+
+### Question
+
+上机实习。线性波动方程$\frac{\partial u}{\partial x}+a \frac{\partial u}{\partial x}=0, a=1$。求解域为：$(x, t) \in[-0.5,0.5] \times[0, \infty]$。初值条件为：
+$$
+f(x)= \begin{cases}0 & -0.5 \leq x<-0.25 \\ 1 & -0.25 \leq x \leq 0.25 \\ 0 . & 0.25<x \leq 0.5\end{cases}
+$$
+
+边界上满足周期条件。取计算网格点为$M_x=100$。$CFL=0.5$。用一阶迎风格式、Lax－Wendroff格式、Warming－Beam格式计算$t=0.1,1.0,10.0$时的数值解。分析数值解在间断附近的行为。
+
+### Solution
+
+HW29March.py
